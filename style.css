@@ -1,0 +1,350 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    background-color: #181818;
+    width: 100%;
+    height: 160vh;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 140px;
+    padding: 0 150px;
+}
+
+.navbar .links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.navbar .links a{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.navbar .btn button{
+    width: 130px;
+    height: 45px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    font-size: 17px;
+    color: #fff;
+}
+
+.line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.line h1{
+    font-size: 60px;
+    color: #fff;
+    width: 500px;
+    text-align: center;
+}
+
+.line p{
+    color: #fff;
+    width: 400px;
+    text-align: center;
+}
+
+.btns{
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.btns button:nth-child(1){
+    width: 150px;
+    height: 45px;
+    background-color: #4452ee;
+    border: none;
+    color: #fff;
+}
+
+.btns button:nth-child(2){
+    width: 150px;
+    height: 45px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+}
+
+.img img{
+    width: 1100px;
+}
+
+.page2{
+    background-color: #181818;
+    width: 100%;
+    height: 120vh;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+
+.column h1{
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+}
+
+.column p{
+    margin-top: 20px;
+    width: 450px;
+    color: #fff;
+    text-align: center;
+}
+
+.column img{
+    width: 1000px;
+    margin-top: 15px;
+}
+
+.page3{
+    background-color: #181818;
+    width: 100%;
+    height: 100vh;
+}
+
+.page3 h1{
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+}
+
+.column3 h3{
+    font-style: 20px;
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.column3{
+    display: flex;
+    flex-direction: column;
+}
+.katta_div{
+    display: flex;
+    gap: 33px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.div{
+    width: 476px;
+    height: 624px;
+    border-radius: 10px;
+    border: none;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    text-align: center;
+}
+
+.duv h2{
+    font-size: 30px;
+}
+
+.duv p{
+    width: 200px;
+}
+
+.duv{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.duv .btn1{
+    width: 157px;
+    height: 52px;
+    background-color: #4452FE;
+    border: none;
+    color: #fff;
+}
+
+.duv .btn2{
+    width: 190px;
+    height: 52px;
+    background-color:#4452FE ;
+    color: #fff;
+    border: none;
+}
+
+.pde{
+    display: flex;
+    justify-content: center;
+}
+
+.btnde{
+    display: flex;
+    justify-content: center;
+}
+
+.page4{
+    width: 100%;
+    height: 120vh;
+    background-color: #181818;
+}
+
+.colum4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.column4 h1{
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+}
+
+.column4 p{
+    font-style: 20px;
+    width: 400px;
+    color: #fff;
+    text-align: center;
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.brn{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.brn button{
+    width: 159px;
+    height: 52px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+}
+
+.page5{
+    background-color: #181818;
+    width: 100%;
+    height: 40vh;
+}
+
+.page5 img{
+    margin-top: 25px;
+}
+
+.page6{
+    background-color: #181818;
+    width: 100%;
+    height: 170vh;
+}
+
+.cyber{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.sport{
+    width: 1100px;
+    height: 300px;
+    background-color: gray ;
+    margin-top: 55px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forum{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 1100px;
+    gap: 30px;
+}
+
+.sport .forum h1{
+    width: 400px;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+.forum button{
+    width: 200px;
+    height: 52px;
+    color: #fff;
+    background-color: #4452FE;
+    border: none;
+}
+
+.ibg{
+    width: 520px;
+    height: 400px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ibg img{
+    width: 100%;
+}
+
+footer{
+    width: 100%;
+    height: 437px;
+    background-color: #181818;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    align-items: center;
+}
+
+.life{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.life h3{
+    font-style: 30px;
+    color: #fff;
+}
+
+.life p{
+    font-size: 18px;
+    color: #fff;
+}
